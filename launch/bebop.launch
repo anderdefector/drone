@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+    
+
+    <node pkg="ORB_SLAM2" type="Mono" name="Mono" args="/home/ander/bebop_ws/src/ORB_SLAM2/Vocabulary/ORBvoc.txt 
+    /home/ander/bebop_ws/src/ORB_SLAM2/Vocabulary/Asus.yaml" cwd="node" output="screen" >
+        <remap from="/camera/image_raw" to="/bebop/image_raw"/>
+    </node>
+    
+    <node pkg="tmr" type="BebopGUI.py" name="BebopGUI"/>
+
+</launch>
