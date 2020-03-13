@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>tmr</name>
+  <name>drone</name>
   <version>0.0.0</version>
-  <description>The n_control package</description>
+  <description>The drone Package</description>
 
   <maintainer email="anderdefector@gmail.com">Andres Cureño</maintainer>
 
